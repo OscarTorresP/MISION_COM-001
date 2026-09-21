@@ -15,8 +15,8 @@ public class Main {
         float nota2 =3;
         float nota3 =7;
         float nota4 =6;
-        float promedio = (nota1+nota2+ nota3+nota4)/4;
-        if (estudiante.validaPromedio(promedio)){
+        double promedio = (nota1+nota2+ nota3+nota4)/4;
+        if (estudiante.estaAprobado(promedio)){
             System.out.println("El promedio es: "+promedio+"\n"+estudiante.getNombre()+" es aprobado");
         }
     }
