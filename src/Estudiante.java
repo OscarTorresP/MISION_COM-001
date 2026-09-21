@@ -31,7 +31,4 @@ public class Estudiante {
      * @param promedio corresponde al promedio obtenida por el estudiante
      * @return true si la nota es igual o superior a 4.0
      */
-    public boolean estaAprobado(double promedio){
-        return promedio >=4;
-    }
 }
