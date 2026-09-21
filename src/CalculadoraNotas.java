@@ -18,6 +18,11 @@ public class CalculadoraNotas {
             double nota3){
         return (nota1+nota2+nota3)/3;
     }
+    /**
+     * Calcula el promedio de tres evaluaciones.
+     * @param promedio es el resultado del promedio de 3 notas
+     * @return promedio>=4 como prueba logica para entregar true or false
+     */
     public boolean estaAprobado(double promedio){
         /*
          * La escala utilizada considera 4.0
